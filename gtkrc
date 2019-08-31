@@ -1,0 +1,6 @@
+# on Linux: ~/.gtkrc-2.0 (create it if needed—the location can also depend on your distro);
+# on Windows: textadept-install-folder\share\themes\MS-Windows\gtk-2.0\gtkrc;
+# on macOS: Textadept.app/Contents/Resources/share/themes/Gnome-Cupertino/gtk-2.0/gtkrc.
+
+style "custombg" { bg[NORMAL] = "#111111" fg[NORMAL] = "#999999" }
+widget "textadept*" style "custombg"
